@@ -1,7 +1,7 @@
 ### Olá! Eu sou o Rodrigo.👋
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-lima-95a548242/)
-[![E-Mail](mailto:rodrigolima.developer@gmail.com?subject=(Contato))]([https://www.linkedin.com/in/rodrigo-lima-95a548242/](https://criarmeulink.com.br/u/1714574365))
+
 
 [![Rodrigo GitHub stats](https://github-readme-stats.vercel.app/api?username=rodrigolima-dev&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
 [![Rodrigo GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=rodrigolima-dev&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
