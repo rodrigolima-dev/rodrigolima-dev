@@ -19,7 +19,7 @@
     <img align="center" alt="MySQL" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
 <div/> <br/>
 
-Estudante apaixonado por tecnologia, desde os meus 14 anos buscando conhecimento na área de desenvolvimento, hoje com 18, busco oportunidades para desenvolver ainda mais minhas habilidades.
+
 
 
 
