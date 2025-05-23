@@ -3,7 +3,7 @@
 
 **`Desenvolvedor FullStack`**
 
-Me chamo Rodrigo Gonçalves Lima, tenho 18 anos e sou natural do Rio de Janeiro. Concluí o ensino médio no SENAI, com o curso técnico em Informática. Atualmente, estou cursando Bacharelado em Sistemas de Informação. Sou apaixonado por tecnologia e programação, e busco compartilhar meu conhecimento para inspirar e ajudar outras pessoas. Me siga no [Linkedin](https://www.linkedin.com/in/rodrigo-lima-95a548242/).
+Me chamo Rodrigo, tenho 19 anos e sou natural do Rio de Janeiro. Concluí o ensino médio no SENAI, com o curso técnico em Informática. Atualmente, estou cursando Bacharelado em Sistemas de Informação no CEFET-RJ. Sou apaixonado por tecnologia e programação, e busco compartilhar meu conhecimento para inspirar e ajudar outras pessoas. Me siga no [Linkedin](https://www.linkedin.com/in/rodrigo-lima-95a548242/).
 
 <p align="left">
     <a href="https://github.com/rodrigolima-dev?tab=repositories&sort=stargazers">
