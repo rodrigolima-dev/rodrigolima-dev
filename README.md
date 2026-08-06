@@ -1,9 +1,11 @@
-## 👨‍💻 Rodrigo Lima
+## Rodrigo Lima
 
 
 **`Desenvolvedor FullStack`**
 
-Me chamo Rodrigo, tenho 19 anos e sou natural do Rio de Janeiro. Concluí o ensino médio no SENAI, com o curso técnico em Informática. Atualmente, estou cursando Bacharelado em Sistemas de Informação no CEFET-RJ. Sou apaixonado por tecnologia e programação, e busco compartilhar meu conhecimento para inspirar e ajudar outras pessoas. Me siga no [Linkedin](https://www.linkedin.com/in/rodrigo-lima-95a548242/).
+Sou desenvolvedor Full Stack com mais de dois anos de experiência em desenvolvimento web e mobile, automações, integrações de APIs e inteligência artificial aplicada a operações de e-commerce.
+ 
+Atualmente, desenvolvo e mantenho soluções de atendimento e vendas com IA integradas a plataformas como Tray e WBuy. Essas soluções atuam em diferentes etapas da jornada comercial, incluindo atendimento, qualificação de leads, consulta de produtos, montagem de carrinhos, criação de pedidos, geração de links de pagamento, acompanhamento de status, campanhas e follow-up.
 
 <p align="left">
     <a href="https://github.com/rodrigolima-dev?tab=repositories&sort=stargazers">
