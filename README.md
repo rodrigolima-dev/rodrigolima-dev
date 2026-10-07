@@ -1,139 +1,47 @@
-## Rodrigo Lima
-
-
-**`Desenvolvedor FullStack`**
-
-Sou desenvolvedor Full Stack com mais de dois anos de experiência em desenvolvimento web e mobile, automações, integrações de APIs e inteligência artificial aplicada a operações de e-commerce.
- 
-Atualmente, desenvolvo e mantenho soluções de atendimento e vendas com IA integradas a plataformas como Tray e WBuy. Essas soluções atuam em diferentes etapas da jornada comercial, incluindo atendimento, qualificação de leads, consulta de produtos, montagem de carrinhos, criação de pedidos, geração de links de pagamento, acompanhamento de status, campanhas e follow-up.
-
-<p align="left">
-    <a href="https://github.com/rodrigolima-dev?tab=repositories&sort=stargazers">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/rodrigolima-dev?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
-        />
-    </a>
-    <a href="https://github.com/rodrigolima-dev?tab=followers">
-        <img 
-            alt="Seguidores" 
-            title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/rodrigolima-dev?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-        />
-    </a>
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="Rodrigo Lima — Full Stack Engineer + AI" width="100%" />
 </p>
 
----
+# Hi, I'm Rodrigo Lima 👋
 
-### 🤖 Linguagens e Tecnologias
+**Full Stack Engineer + AI** based in Rio de Janeiro, Brazil. I build web and mobile products, APIs, and AI-assisted workflows that connect software to real operations.
 
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="TypeScript"
-    title="TypeScript" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="React"
-    title="React" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Java" 
-    title="Java"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"  
-/>
-<img 
-    align="left" 
-    alt="Spring Boot"
-    title="Spring Boot" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-/>
-<img 
-    align="left" 
-    alt="MySQL" 
-    title="MySQL"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
-/>
-<img 
-    align="left" 
-    alt="PostgreSQL" 
-    title="PostgreSQL"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-/>
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
+At **OpportunusAI**, I work across product interfaces, integrations, automation, and data boundaries. My engineering priorities are clear user flows, explicit access control, reproducible setup, and evidence that a change actually works. I'm interested in remote Full Stack and AI engineering roles.
 
-<br/>
-<br/>
+[Connect on LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/) · [Explore my repositories](https://github.com/rodrigolima-dev?tab=repositories)
 
-### 📊 Estatísticas
+## Selected work
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=rodrigolima-dev&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
+| Project | What you can inspect | Status |
+| --- | --- | --- |
+| [MoneyCare](https://github.com/rodrigolima-dev/MoneyCare) | React Native app for recording income and expenses, with authentication and cloud persistence. | Mobile project; documentation and tests are being improved. |
+| [Book Wishlist](https://github.com/rodrigolima-dev/Book-Wishlist) | React Native book list with local Realm persistence. | Mobile learning project with local storage. |
+| [Space App](https://github.com/rodrigolima-dev/space-app) | React interface built while studying component composition and styled components. | Frontend learning project. |
+| [Med Voll API](https://github.com/rodrigolima-dev/med.voll.api) | Java and Spring Boot REST API with database migrations. | Course-based backend study. |
 
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mari4souza/rodrigolima-dev/output/github-contribution-grid-snake-dark.svg">
-  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg">
+My earlier HTML, CSS, Java, and React projects remain public as an honest record of how my work has evolved. Product code and demonstrations are added here after their security, documentation, and reproducibility checks.
+
+## What I work with
+
+- **Interfaces:** TypeScript, JavaScript, React, React Native, HTML, CSS
+- **Backend and data:** Java, Spring Boot, REST APIs, PostgreSQL, MySQL, Firebase, Supabase
+- **Systems:** Git, Docker, automation, integrations, AI-assisted product workflows
+
+I prefer a small, working slice with clear boundaries over a large demo that cannot be reproduced. For projects involving multiple customers, access control belongs in the data and API layers, not only in the interface.
+
+<details>
+<summary>Resumo em português</summary>
+
+Sou Rodrigo Lima, desenvolvedor **Full Stack + IA** no Rio de Janeiro. Construo aplicações web e mobile, APIs e fluxos com IA ligados a operações reais. Na OpportunusAI, trabalho com interfaces, integrações, automação e separação segura de dados. Procuro oportunidades remotas em engenharia Full Stack e IA.
+
+Os projetos acima mostram etapas diferentes da minha evolução. Documentação, testes e demonstrações são publicados conforme cada projeto passa por revisão técnica e de segurança.
+
+</details>
+
+## A little motion
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated snake following the GitHub contribution grid" src="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg" />
 </picture>
-
