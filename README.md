@@ -4,7 +4,7 @@
 
 # Hi, I'm Rodrigo Lima 👋
 
-**Full Stack Engineer + AI** based in Rio de Janeiro, Brazil. I build web and mobile products, APIs, and AI-assisted workflows that connect software to real operations.
+**Full Stack Engineer + AI** based in Rio de Janeiro, Brazil. My current focus is JavaScript, TypeScript, Python, LangChain, and LangGraph. I build web and mobile products, APIs, and AI-assisted workflows that connect software to real operations.
 
 At **OpportunusAI**, I work across product interfaces, integrations, automation, and data boundaries. My engineering priorities are clear user flows, explicit access control, reproducible setup, and evidence that a change actually works. I'm interested in remote Full Stack and AI engineering roles.
 
@@ -18,9 +18,11 @@ A runnable Next.js and TypeScript dashboard with fictional data, tenant-aware ro
 
 The key design decision is that switching a tenant in the interface never grants access to that tenant's data. The API checks membership on tenant-scoped requests; automated tests exercise forbidden access, expired sessions, and safe failure paths.
 
+### [n8n Automation Patterns](https://github.com/rodrigolima-dev/n8n-patterns)
 
+Four inactive, offline workflows demonstrate input validation, bounded retry decisions, health-signal routing, and tenant-scoped retrieval over synthetic data. The examples have automated tests and were executed in a disposable n8n 2.42.4 profile. They contain no prompts, model calls, credentials, or private integrations. The [CI checks](https://github.com/rodrigolima-dev/n8n-patterns/actions/workflows/validate.yml) are visible with the code.
 
-My applied AI work includes n8n and LangChain orchestration for operational workflows. I share code and demonstrations after checking data boundaries and reproducibility.
+My current AI engineering focus includes LangChain and LangGraph orchestration. I share reproducible examples after checking data boundaries and removing private operational details.
 
 ## Selected learning projects
 
@@ -35,20 +37,18 @@ My earlier HTML, CSS, Java, and React projects remain public as an honest record
 
 I work with Docker Swarm service operations, monitoring, controlled updates, and rollback planning. I use least-privilege access patterns, including Cloudflare Zero Trust, and verify runtime behavior after changes. For multi-customer systems, I treat isolation as an API and data-layer requirement rather than a visual setting.
 
-
-
 ## What I work with
 
-- **Interfaces:** TypeScript, JavaScript, React, React Native, HTML, CSS
-- **Backend and data:** Java, Spring Boot, REST APIs, PostgreSQL, MySQL, Firebase, Supabase
-- **Systems:** Git, Docker Swarm, Cloudflare Zero Trust, monitoring, n8n, LangChain, integrations
+- **Current focus:** JavaScript, TypeScript, Python, LangChain, LangGraph, n8n
+- **Product engineering:** React, React Native, REST APIs, PostgreSQL, multi-tenant access control
+- **Infrastructure and earlier work:** Git, Docker Swarm, Cloudflare Zero Trust, monitoring, Java, Spring Boot, MySQL, Firebase, Supabase
 
 I prefer a small, working slice with clear boundaries over a large demo that cannot be reproduced. For projects involving multiple customers, access control belongs in the data and API layers, not only in the interface.
 
 <details>
 <summary>Resumo em português</summary>
 
-Sou Rodrigo Lima, desenvolvedor **Full Stack + IA** no Rio de Janeiro. Construo aplicações web e mobile, APIs e fluxos com IA ligados a operações reais. Na OpportunusAI, trabalho com interfaces, integrações, automação, Docker Swarm e separação segura de dados. Procuro oportunidades remotas em engenharia Full Stack e IA.
+Sou Rodrigo Lima, desenvolvedor **Full Stack + IA** no Rio de Janeiro. Meu foco atual é JavaScript, TypeScript, Python, LangChain e LangGraph. Construo aplicações web e mobile, APIs e fluxos com IA ligados a operações reais. Na OpportunusAI, trabalho com interfaces, integrações, automação, Docker Swarm e separação segura de dados. Procuro oportunidades remotas em engenharia Full Stack e IA.
 
 Os projetos acima mostram etapas diferentes da minha evolução. Documentação, testes e demonstrações são publicados conforme cada projeto passa por revisão técnica e de segurança.
 
