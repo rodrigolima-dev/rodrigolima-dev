@@ -10,16 +10,22 @@ At **OpportunusAI**, I work across product interfaces, integrations, automation,
 
 [Connect on LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/) · [Explore my repositories](https://github.com/rodrigolima-dev?tab=repositories)
 
-## Selected work
+## Applied engineering
+
+### [OpportunusAI Dashboard](https://github.com/rodrigolima-dev/opportunus-dashboard)
+
+A runnable Next.js and TypeScript dashboard with fictional data, tenant-aware routes, and read-only APIs. I kept tenant membership and role permissions on the server, signed the demo session, and tested both allowed and denied access. The repository includes [architecture notes](https://github.com/rodrigolima-dev/opportunus-dashboard/blob/main/docs/ARCHITECTURE.md), [local setup](https://github.com/rodrigolima-dev/opportunus-dashboard#executar-localmente), and [passing CI](https://github.com/rodrigolima-dev/opportunus-dashboard/actions/workflows/ci.yml).
+
+My applied AI work includes n8n and LangChain orchestration for operational workflows. I share code and demonstrations after checking data boundaries and reproducibility.
+
+## Selected learning projects
 
 | Project | What you can inspect | Status |
 | --- | --- | --- |
-| [MoneyCare](https://github.com/rodrigolima-dev/MoneyCare) | React Native app for recording income and expenses, with authentication and cloud persistence. | Mobile project; documentation and tests are being improved. |
 | [Book Wishlist](https://github.com/rodrigolima-dev/Book-Wishlist) | React Native book list with local Realm persistence. | Mobile learning project with local storage. |
 | [Space App](https://github.com/rodrigolima-dev/space-app) | React interface built while studying component composition and styled components. | Frontend learning project. |
-| [Med Voll API](https://github.com/rodrigolima-dev/med.voll.api) | Java and Spring Boot REST API with database migrations. | Course-based backend study. |
 
-My earlier HTML, CSS, Java, and React projects remain public as an honest record of how my work has evolved. Product code and demonstrations are added here after their security, documentation, and reproducibility checks.
+My earlier HTML, CSS, Java, and React projects remain public as an honest record of how my work has evolved. Mobile and API projects receive focused security, documentation, and reproducibility reviews before I feature them here.
 
 ## What I work with
 
