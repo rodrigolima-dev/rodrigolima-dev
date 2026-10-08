@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Rodrigo Lima — Full Stack Engineer + AI" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Rodrigo Lima — Software Engineer, Full Stack and AI" width="100%" />
 </p>
 
 # Hi, I'm Rodrigo Lima 👋
 
-**Full Stack Engineer + AI** based in Rio de Janeiro, Brazil. My current focus is JavaScript, TypeScript, Python, LangChain, and LangGraph. I build web and mobile products, APIs, and AI-assisted workflows that connect software to real operations.
+**Full Stack Software Engineer** based in Rio de Janeiro, Brazil. I design and build web and mobile products, APIs, and automation from system architecture through delivery. My current focus is JavaScript, TypeScript, Python, LangChain, and LangGraph.
 
 At **OpportunusAI**, I work across product interfaces, integrations, automation, and data boundaries. My engineering priorities are clear user flows, explicit access control, reproducible setup, and evidence that a change actually works. I'm interested in remote Full Stack and AI engineering roles.
 
@@ -18,11 +18,15 @@ A runnable Next.js and TypeScript dashboard with fictional data, tenant-aware ro
 
 The key design decision is that switching a tenant in the interface never grants access to that tenant's data. The API checks membership on tenant-scoped requests; automated tests exercise forbidden access, expired sessions, and safe failure paths.
 
+### [Guarded Retrieval Graph](https://github.com/rodrigolima-dev/guarded-langgraph-demo)
+
+A runnable Python example using LangGraph and LangChain Core. The graph validates input, checks access, retrieves only published synthetic documents for the selected tenant, and passes that bounded context to a deterministic response component. The [architecture](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/docs/ARCHITECTURE.md), [12 tests](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/tests/test_workflow.py), and [CI](https://github.com/rodrigolima-dev/guarded-langgraph-demo/actions/workflows/verify.yml) make the boundaries inspectable. The example uses no LLM, prompt, customer data, or external service.
+
 ### [n8n Automation Patterns](https://github.com/rodrigolima-dev/n8n-patterns)
 
 Four inactive, offline workflows demonstrate input validation, bounded retry decisions, health-signal routing, and tenant-scoped retrieval over synthetic data. The examples have automated tests and were executed in a disposable n8n 2.42.4 profile. They contain no prompts, model calls, credentials, or private integrations. The [CI checks](https://github.com/rodrigolima-dev/n8n-patterns/actions/workflows/validate.yml) are visible with the code.
 
-My current AI engineering focus includes LangChain and LangGraph orchestration. I share reproducible examples after checking data boundaries and removing private operational details.
+I share reproducible examples after checking data boundaries and removing private operational details.
 
 ## Selected learning projects
 
@@ -48,7 +52,7 @@ I prefer a small, working slice with clear boundaries over a large demo that can
 <details>
 <summary>Resumo em português</summary>
 
-Sou Rodrigo Lima, desenvolvedor **Full Stack + IA** no Rio de Janeiro. Meu foco atual é JavaScript, TypeScript, Python, LangChain e LangGraph. Construo aplicações web e mobile, APIs e fluxos com IA ligados a operações reais. Na OpportunusAI, trabalho com interfaces, integrações, automação, Docker Swarm e separação segura de dados. Procuro oportunidades remotas em engenharia Full Stack e IA.
+Sou Rodrigo Lima, **engenheiro de software Full Stack** no Rio de Janeiro. Trabalho da arquitetura à entrega de aplicações web e mobile, APIs e automações. Meu foco atual é JavaScript, TypeScript, Python, LangChain e LangGraph. Na OpportunusAI, atuo com interfaces, integrações, Docker Swarm e segurança de acesso. Procuro oportunidades remotas em engenharia Full Stack e IA.
 
 Os projetos acima mostram etapas diferentes da minha evolução. Documentação, testes e demonstrações são publicados conforme cada projeto passa por revisão técnica e de segurança.
 
