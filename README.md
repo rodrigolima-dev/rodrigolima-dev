@@ -4,17 +4,17 @@
 
 # Hi, I'm Rodrigo Lima 👋
 
-**Full Stack Software Engineer** based in Rio de Janeiro, Brazil. I design and build web and mobile products, APIs, and automation from system architecture through delivery. My current focus is JavaScript, TypeScript, Python, LangChain, and LangGraph.
+**Full Stack Software Engineer and Co-founder & CTO at OpportunusAI** based in Rio de Janeiro, Brazil. I design and build web and mobile products, APIs, and automation from system architecture through delivery. My current focus is JavaScript, TypeScript, Python, LangChain, and LangGraph.
 
-At **OpportunusAI**, I work across product interfaces, integrations, automation, and data boundaries. My engineering priorities are clear user flows, explicit access control, reproducible setup, and evidence that a change actually works. I'm interested in remote Full Stack and AI engineering roles.
+At **OpportunusAI**, I lead the technical evolution from the public V1 dashboard demonstration to a private V2 operations platform. The current product connects conversations, customer context, orders, and campaigns; the team reviews AI knowledge before publishing it. V2 code and production data remain private. I'm interested in remote Full Stack and AI engineering roles.
 
-[Connect on LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/) · [Explore my repositories](https://github.com/rodrigolima-dev?tab=repositories)
+[Visit my website](https://rodrigolima-dev.github.io/) · [Connect on LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/) · [Explore my repositories](https://github.com/rodrigolima-dev?tab=repositories)
 
 ## Applied engineering
 
 ### [OpportunusAI Dashboard](https://github.com/rodrigolima-dev/opportunus-dashboard)
 
-A runnable Next.js and TypeScript dashboard with fictional data, tenant-aware routes, and read-only APIs. I kept tenant membership and role permissions on the server, signed the demo session, and tested both allowed and denied access. The repository includes [architecture notes](https://github.com/rodrigolima-dev/opportunus-dashboard/blob/main/docs/ARCHITECTURE.md), [local setup](https://github.com/rodrigolima-dev/opportunus-dashboard#executar-localmente), and [passing CI](https://github.com/rodrigolima-dev/opportunus-dashboard/actions/workflows/ci.yml).
+A public, sanitized V1 demonstration in Next.js and TypeScript with fictional data, tenant-aware routes, and read-only APIs. I kept tenant membership and role permissions on the server, signed the demo session, and tested both allowed and denied access. The repository includes [architecture notes](https://github.com/rodrigolima-dev/opportunus-dashboard/blob/main/docs/ARCHITECTURE.md), [local setup](https://github.com/rodrigolima-dev/opportunus-dashboard#executar-localmente), and [passing CI](https://github.com/rodrigolima-dev/opportunus-dashboard/actions/workflows/ci.yml).
 
 The key design decision is that switching a tenant in the interface never grants access to that tenant's data. The API checks membership on tenant-scoped requests; automated tests exercise forbidden access, expired sessions, and safe failure paths.
 
@@ -52,7 +52,7 @@ I prefer a small, working slice with clear boundaries over a large demo that can
 <details>
 <summary>Resumo em português</summary>
 
-Sou Rodrigo Lima, **engenheiro de software Full Stack** no Rio de Janeiro. Trabalho da arquitetura à entrega de aplicações web e mobile, APIs e automações. Meu foco atual é JavaScript, TypeScript, Python, LangChain e LangGraph. Na OpportunusAI, atuo com interfaces, integrações, Docker Swarm e segurança de acesso. Procuro oportunidades remotas em engenharia Full Stack e IA.
+Sou Rodrigo Lima, **engenheiro de software Full Stack, cofundador e CTO da OpportunusAI**, no Rio de Janeiro. Trabalho da arquitetura à entrega de aplicações web e mobile, APIs e automações. Meu foco atual é JavaScript, TypeScript, Python, LangChain e LangGraph. Lidero a evolução técnica da plataforma privada V2; o dashboard público é uma demonstração sanitizada da V1. Procuro oportunidades remotas em engenharia Full Stack e IA. [Conheça meu site](https://rodrigolima-dev.github.io/).
 
 Os projetos acima mostram etapas diferentes da minha evolução. Documentação, testes e demonstrações são publicados conforme cada projeto passa por revisão técnica e de segurança.
 
