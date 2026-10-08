@@ -20,7 +20,7 @@ The key design decision is that switching a tenant in the interface never grants
 
 ### [Guarded Retrieval Graph](https://github.com/rodrigolima-dev/guarded-langgraph-demo)
 
-A runnable Python example using LangGraph and LangChain Core. The graph validates input, checks access, retrieves only published synthetic documents for the selected tenant, and passes that bounded context to a deterministic response component. The [architecture](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/docs/ARCHITECTURE.md), [12 tests](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/tests/test_workflow.py), and [CI](https://github.com/rodrigolima-dev/guarded-langgraph-demo/actions/workflows/verify.yml) make the boundaries inspectable. The example uses no LLM, prompt, customer data, or external service.
+A runnable Python example using LangGraph and LangChain Core. The graph checks access before retrieval, evaluates evidence, and makes at most one deterministic lexical retry within the same synthetic tenant. Failed paths clear the returned evidence. The [architecture](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/docs/ARCHITECTURE.md), [21 tests](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/tests/test_workflow.py), and [CI](https://github.com/rodrigolima-dev/guarded-langgraph-demo/actions/workflows/verify.yml) make the boundaries inspectable. The example uses no LLM, prompt, customer data, or external service.
 
 ### [n8n Automation Patterns](https://github.com/rodrigolima-dev/n8n-patterns)
 
