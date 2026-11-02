@@ -1,67 +1,47 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Rodrigo Lima — Software Engineer, Full Stack and AI" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Rodrigo Lima: Full Stack Developer" width="100%" />
 </p>
 
-# Hi, I'm Rodrigo Lima 👋
+# Hi, I'm Rodrigo Lima
 
-**Full Stack Software Engineer and Co-founder & CTO at OpportunusAI** based in Rio de Janeiro, Brazil. I design and build web and mobile products, APIs, and automation from system architecture through delivery. My current focus is JavaScript, TypeScript, Python, LangChain, and LangGraph.
+**Full Stack Developer | JavaScript, TypeScript, React, Node.js & Docker**
 
-At **OpportunusAI**, I lead the technical evolution from the public V1 dashboard demonstration to a private V2 operations platform. The current product connects conversations, customer context, orders, and campaigns; the team reviews AI knowledge before publishing it. V2 code and production data remain private. I'm interested in remote Full Stack and AI engineering roles.
+I'm a software developer and entrepreneur based in Rio de Janeiro, Brazil.
 
-[Visit my website](https://rodrigolima-dev.github.io/) · [Connect on LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/) · [Explore my repositories](https://github.com/rodrigolima-dev?tab=repositories)
+I build web applications and APIs, working across frontend, backend, databases, and infrastructure. My experience includes software architecture, system integrations, authentication, automated testing, and deployment.
 
-## Applied engineering
+## Featured Projects
 
-### [OpportunusAI Dashboard](https://github.com/rodrigolima-dev/opportunus-dashboard)
+### [E-commerce Application](https://github.com/rodrigolima-dev/orpheuswim-frontend)
 
-A public, sanitized V1 demonstration in Next.js and TypeScript with fictional data, tenant-aware routes, and read-only APIs. I kept tenant membership and role permissions on the server, signed the demo session, and tested both allowed and denied access. The repository includes [architecture notes](https://github.com/rodrigolima-dev/opportunus-dashboard/blob/main/docs/ARCHITECTURE.md), [local setup](https://github.com/rodrigolima-dev/opportunus-dashboard#executar-localmente), and [passing CI](https://github.com/rodrigolima-dev/opportunus-dashboard/actions/workflows/ci.yml).
+**Stack:** React, TypeScript, Java, Spring Boot, MySQL
 
-The key design decision is that switching a tenant in the interface never grants access to that tenant's data. The API checks membership on tenant-scoped requests; automated tests exercise forbidden access, expired sessions, and safe failure paths.
+E-commerce application featuring product management, shopping cart, authentication, and REST API integration.
 
-### [Guarded Retrieval Graph](https://github.com/rodrigolima-dev/guarded-langgraph-demo)
+[Frontend](https://github.com/rodrigolima-dev/orpheuswim-frontend) | [Backend](https://github.com/rodrigolima-dev/orpheuswim-api)
 
-A runnable Python example using LangGraph and LangChain Core. The graph checks access before retrieval, evaluates evidence, and makes at most one deterministic lexical retry within the same synthetic tenant. Failed paths clear the returned evidence. The [architecture](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/docs/ARCHITECTURE.md), [21 tests](https://github.com/rodrigolima-dev/guarded-langgraph-demo/blob/main/tests/test_workflow.py), and [CI](https://github.com/rodrigolima-dev/guarded-langgraph-demo/actions/workflows/verify.yml) make the boundaries inspectable. The example uses no LLM, prompt, customer data, or external service.
+### [Multi-Tenant Dashboard](https://github.com/rodrigolima-dev/opportunus-dashboard)
 
-### [n8n Automation Patterns](https://github.com/rodrigolima-dev/n8n-patterns)
+**Stack:** Next.js, React, TypeScript
 
-Four inactive, offline workflows demonstrate input validation, bounded retry decisions, health-signal routing, and tenant-scoped retrieval over synthetic data. The examples have automated tests and were executed in a disposable n8n 2.42.4 profile. They contain no prompts, model calls, credentials, or private integrations. The [CI checks](https://github.com/rodrigolima-dev/n8n-patterns/actions/workflows/validate.yml) are visible with the code.
+Dashboard with server-side authorization, role-based access control, tenant isolation, signed sessions, and automated tests using synthetic data.
 
-I share reproducible examples after checking data boundaries and removing private operational details.
+### [Vector Chunk Kit](https://github.com/rodrigolima-dev/vector-chunk-kit)
 
-## Selected learning projects
+**Stack:** Python, PostgreSQL, pgvector
 
-| Project | What you can inspect | Status |
-| --- | --- | --- |
-| [Book Wishlist](https://github.com/rodrigolima-dev/Book-Wishlist) | React Native book list with local Realm persistence. | Mobile learning project with local storage. |
-| [Space App](https://github.com/rodrigolima-dev/space-app) | React interface built while studying component composition and styled components. | Frontend learning project. |
+Document processing and ingestion toolkit with deterministic chunking, input validation, and controlled database operations.
 
-My earlier HTML, CSS, Java, and React projects remain public as an honest record of how my work has evolved. Mobile and API projects receive focused security, documentation, and reproducibility reviews before I feature them here.
+## Let's Connect
 
-## Infrastructure and access
+Open to remote Full Stack Developer and Software Engineering opportunities.
 
-I work with Docker Swarm service operations, monitoring, controlled updates, and rollback planning. I use least-privilege access patterns, including Cloudflare Zero Trust, and verify runtime behavior after changes. For multi-customer systems, I treat isolation as an API and data-layer requirement rather than a visual setting.
+[Portfolio](https://rodrigolima-dev.github.io/) | [LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/)
 
-## What I work with
-
-- **Current focus:** JavaScript, TypeScript, Python, LangChain, LangGraph, n8n
-- **Product engineering:** React, React Native, REST APIs, PostgreSQL, multi-tenant access control
-- **Infrastructure and earlier work:** Git, Docker Swarm, Cloudflare Zero Trust, monitoring, Java, Spring Boot, MySQL, Firebase, Supabase
-
-I prefer a small, working slice with clear boundaries over a large demo that cannot be reproduced. For projects involving multiple customers, access control belongs in the data and API layers, not only in the interface.
-
-<details>
-<summary>Resumo em português</summary>
-
-Sou Rodrigo Lima, **engenheiro de software Full Stack, cofundador e CTO da OpportunusAI**, no Rio de Janeiro. Trabalho da arquitetura à entrega de aplicações web e mobile, APIs e automações. Meu foco atual é JavaScript, TypeScript, Python, LangChain e LangGraph. Lidero a evolução técnica da plataforma privada V2; o dashboard público é uma demonstração sanitizada da V1. Procuro oportunidades remotas em engenharia Full Stack e IA. [Conheça meu site](https://rodrigolima-dev.github.io/).
-
-Os projetos acima mostram etapas diferentes da minha evolução. Documentação, testes e demonstrações são publicados conforme cada projeto passa por revisão técnica e de segurança.
-
-</details>
-
-## A little motion
+## Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg" />
-  <img alt="Animated snake following the GitHub contribution grid" src="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution animation" src="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg" />
 </picture>
