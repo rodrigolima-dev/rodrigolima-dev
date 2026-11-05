@@ -1,47 +1,23 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Rodrigo Lima: Full Stack Developer" width="100%" />
-</p>
+I'm a full-stack developer in Rio de Janeiro, Brazil. I study Information Systems and teach programming at Nave do Conhecimento. I'm currently building **HIT**, a mobile app for finding people to play sports with.
 
-# Hi, I'm Rodrigo Lima
+[Portfolio](https://rodrigolima-dev.github.io/) · [LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/)
 
-**Full Stack Developer | JavaScript, TypeScript, React, Node.js & Docker**
+## Selected projects
 
-I'm a software developer and entrepreneur based in Rio de Janeiro, Brazil.
+### Storefront for a handmade clothing shop
 
-I build web applications and APIs, working across frontend, backend, databases, and infrastructure. My experience includes software architecture, system integrations, authentication, automated testing, and deployment.
+The shop used to take orders entirely over WhatsApp. I built a React storefront where shoppers choose sizes, colors, and quantities, then send their cart as one WhatsApp message. The owner manages the catalog through a Java and Spring Boot API backed by MySQL.
 
-## Featured Projects
+[React storefront](https://github.com/rodrigolima-dev/orpheuswim-frontend) · [Spring Boot API](https://github.com/rodrigolima-dev/orpheuswim-api)
 
-### [E-commerce Application](https://github.com/rodrigolima-dev/orpheuswim-frontend)
+### Retail dashboard · OpportunusAI
 
-**Stack:** React, TypeScript, Java, Spring Boot, MySQL
+I built a dashboard for two retailers to track sales, inventory, and campaigns. The public demo uses Next.js, TypeScript, and fictional data. Its Node.js tests check that the API returns `403 Forbidden` when one store tries to read another store's orders.
 
-E-commerce application featuring product management, shopping cart, authentication, and REST API integration.
+[Dashboard walkthrough](https://github.com/rodrigolima-dev/opportunus-dashboard/blob/main/docs/DEMO_WALKTHROUGH.md) · [Read the access-control tests](https://github.com/rodrigolima-dev/opportunus-dashboard/blob/main/tests/http-smoke.mjs)
 
-[Frontend](https://github.com/rodrigolima-dev/orpheuswim-frontend) | [Backend](https://github.com/rodrigolima-dev/orpheuswim-api)
+### Vector Chunk Kit
 
-### [Multi-Tenant Dashboard](https://github.com/rodrigolima-dev/opportunus-dashboard)
+I built a Python command-line tool that splits documents into passages for vector search in PostgreSQL with pgvector. You can preview the passages offline before making an API call or writing to the database.
 
-**Stack:** Next.js, React, TypeScript
-
-Dashboard with server-side authorization, role-based access control, tenant isolation, signed sessions, and automated tests using synthetic data.
-
-### [Vector Chunk Kit](https://github.com/rodrigolima-dev/vector-chunk-kit)
-
-**Stack:** Python, PostgreSQL, pgvector
-
-Document processing and ingestion toolkit with deterministic chunking, input validation, and controlled database operations.
-
-## Let's Connect
-
-Open to remote Full Stack Developer and Software Engineering opportunities.
-
-[Portfolio](https://rodrigolima-dev.github.io/) | [LinkedIn](https://www.linkedin.com/in/rodrigo-lima-95a548242/)
-
-## Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution animation" src="https://raw.githubusercontent.com/rodrigolima-dev/rodrigolima-dev/output/github-contribution-grid-snake.svg" />
-</picture>
+[Try the offline example](https://github.com/rodrigolima-dev/vector-chunk-kit#run-the-offline-path)
